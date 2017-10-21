@@ -2,6 +2,125 @@ import java.util.Scanner;
 public class Hell {
 	public static void main(String[] args) {
 		Scanner IN = new Scanner(System.in);
+/****井字游戏*****************************************/
+//		final int SIZE = 3;
+//		int[][] board = new int[SIZE][SIZE];
+//		boolean gotResult = false;
+//		int numOfX = 0;
+//		int numOfO = 0;
+//		for (int i = 0; i < board.length; i++)
+//		{
+//			for(int j = 0; j < board[i].length; j++)
+//			{
+//				board[i][j] = IN.nextInt();
+//			}
+//		}
+//		//判断行
+//		if (!gotResult)
+//		{
+//			for (int i = 0; i < board.length; i++)
+//			{
+//				numOfX = 0;
+//				numOfO = 0;
+//				for(int j =0; j < board[i].length; j++)
+//				{
+//					if (board[i][j] == 1)
+//					{
+//						numOfX++;
+//					}
+//					else
+//					{
+//						numOfO++;
+//					}
+//				}
+//				if (numOfX == SIZE || numOfO == SIZE)
+//				{
+//					gotResult = true;
+//					break;
+//				}
+//			}
+//		}
+//		//判断列
+//		if (!gotResult)
+//		{
+//			for(int j =0; j < SIZE; j++)
+//			{
+//				numOfX = 0;
+//				numOfO = 0;
+//				for (int i = 0; i < board.length; i++)
+//				{
+//					if (board[i][j] == 1)
+//					{
+//						numOfX++;
+//					}
+//					else
+//					{
+//						numOfO++;
+//					}
+//				}
+//				if (numOfX == SIZE || numOfO == SIZE)
+//				{
+//					gotResult = true;
+//					break;
+//				}
+//			}
+//		}
+//		//判断对角
+//		if (!gotResult)
+//		{
+//			numOfX = 0;
+//			numOfO = 0;
+//			for(int i =0; i < SIZE; i++)
+//			{
+//				if (board[i][i] == 1)
+//				{
+//					numOfX++;
+//				}
+//				else
+//				{
+//					numOfO++;
+//				}			
+//			}
+//			if (numOfX == SIZE || numOfO == SIZE)
+//			{
+//				gotResult = true;
+//			}
+//		}
+//				
+//		//判断反对角
+//		if (!gotResult)
+//		{
+//			numOfX = 0;
+//			numOfO = 0;
+//			for(int i =0; i < SIZE; i++)
+//			{
+//				if (board[i][SIZE-1-i] == 1)
+//				{
+//					numOfX++;
+//				}
+//				else
+//				{
+//					numOfO++;
+//				}			
+//			}
+//			if (numOfX == SIZE || numOfO == SIZE)
+//			{
+//				gotResult = true;
+//			}
+//		}
+//		
+//		if (gotResult)
+//		{
+//			if(numOfX == SIZE)
+//			{
+//				System.out.println("X WIN");
+//			}
+//			else
+//			{
+//				System.out.println("O WIN");
+//			}
+//		}
+		
 /***构造100以内素数的表，用数组下标表示数*************************/	
 //		boolean[] isPrime = new boolean[100];
 //		for (int i = 0; i < isPrime.length; i++)
