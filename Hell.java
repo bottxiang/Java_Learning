@@ -2,6 +2,50 @@ import java.util.Scanner;
 public class Hell {
 	public static void main(String[] args) {
 		Scanner IN = new Scanner(System.in);
+/***构造100以内素数的表，用数组下标表示数*************************/	
+//		boolean[] isPrime = new boolean[100];
+//		for (int i = 0; i < isPrime.length; i++)
+//		{
+//			isPrime[i] = true;
+//		}
+//		for (int i = 2; i < isPrime.length; i++)
+//		{
+//			if (isPrime[i])
+//			{
+//				for (int k = 2; k * i < 100; k++)
+//				{
+//					isPrime[k * i] = false;
+//				}
+//			}
+//		}
+//		for (int i = 2; i < isPrime.length; i++)
+//		{
+//			if (isPrime[i] == true)
+//			{
+//				System.out.print(i + " ");
+//			}
+//		}
+/***构造50个素数的表*******************************************/
+//		int[] primes = new int[50];
+//		primes[0] = 2;
+//		int cnt = 1;
+//		MAIN_LOOP:
+//		for (int x = 3; cnt < primes.length; x++)
+//		{
+//			for (int i =0; i < cnt; i++)
+//			{
+//				if (x % primes[i] == 0)
+//				{
+//					continue MAIN_LOOP;
+//				}
+//			}
+//			primes[cnt++] = x;
+//		}
+//		for (int k : primes)
+//		{
+//			System.out.print(k+" ");
+//		}
+		
 /***投票器************************************************/
 //		int[] numbers = new int[10];
 //		int x;
